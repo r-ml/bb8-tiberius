@@ -11,7 +11,7 @@ keywords = ["mssql", "tiberius", "database", "pool"]
 
 [dependencies]
 futures = "0.3"
-tiberius = { git = "https://github.com/r-ml/tiberius", rev = "f45a358", default-features = false }
+tiberius = { git = "https://github.com/r-ml/tiberius", rev = "886c01b", default-features = false }
 bb8 = "0.7.0"
 thiserror = "1.0.23"
 tokio = { version = "1.1.0", features = ["net", "io-util", "rt-multi-thread", "macros"], optional = true }
